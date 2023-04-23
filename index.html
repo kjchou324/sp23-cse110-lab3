@@ -10,6 +10,7 @@
   </head>
 
   <body>
+  <div id="background">
     <header>
       <h1>Project Meeting Notes</h1>
       <h2>Additional Feature Discussion</h2>
@@ -55,6 +56,7 @@
 
     <hr>
 
+    <div id="main-notes">
     <h2 id="details">Main Details</h2>
 
     <h3>Last Meeting Cleanup</h3>
@@ -78,7 +80,7 @@
     </details>
 
     <figure>
-      <figcaption><strong>Diagram 1:</strong>Some of the <em>new features</em> and the parts of the project they expand upon.</figcaption>
+      <figcaption><strong>Diagram 1:</strong> Some of the <em>new features</em> and the parts of the project they expand upon.</figcaption>
       <img alt="meeting diagram 1" src="media/figure1.png">
     </figure>
 
@@ -99,6 +101,7 @@
       <figcaption><strong>Diagram 2:</strong> The plan of the order of which <em>features</em> to focus on.</figcaption>
       <img alt="meeting diagram 2" src="media/figure2.png">
     </figure>
+    </div>
 
     </main>
 
@@ -118,28 +121,23 @@
         <fieldset>
           <legend><h2 id="feedback">Meeting Feedback</h2></legend>
 
-          <div class="text-entry">
-            <label>Name:</label>
-            <input>
-          </div>
+          <label id="form-name">Name:</label>
+          <input id="form-name-input">
 
           <br><br>
 
-          <span>
-            <label>Topic:</label>
-            <select>
-              <option>--Select a Topic--</option>
-              <option>Content</option>
-              <option>Pacing</option>
-              <option>Clarification</option>
-              <option>Other</option>
-            </select>
-          </span>
+          <label id="form-topic">Topic:</label>
+          <select id="form-topic-select">
+            <option>--Select a Topic--</option>
+            <option>Content</option>
+            <option>Pacing</option>
+            <option>Clarification</option>
+            <option>Other</option>
+          </select>
 
           <br><br>
           
-          <div class="text-entry">
-            <label>Subject</label>
+            <label id="form-subject">Subject:</label>
             <input list="subject-list">
             <datalist id="subject-list">
               <option>More details required.</option>
@@ -147,11 +145,10 @@
               <option>Clarification required.</option>
               <option>Discussion focus for next meeting.</option>
             </datalist>
-          </div>
 
           <br><br>
           
-          <span>
+          <span id="form-description">
             <label>Description:</label><br>
             <textarea placeholder="Describe the issue/feedback"></textarea>
           </span>
@@ -162,5 +159,6 @@
         </fieldset>
       </form>
     </footer>
+  </div>
   </body>
 </html>
