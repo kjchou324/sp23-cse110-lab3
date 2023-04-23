@@ -43,3 +43,19 @@ figure {
 figcaption {
     margin-bottom: 1pc;
 }
+
+a {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: white;
+    background-color: darkblue;
+}
+
+a:active {
+    color: white;
+    background-color: darkblue;
+    opacity: 40%;
+}
