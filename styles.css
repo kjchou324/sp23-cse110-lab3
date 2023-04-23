@@ -35,6 +35,17 @@ li {
     padding-bottom: 5pt;
 }
 
+#main-notes {
+    display: flex;
+    flex-direction: column;
+}
+
+#meeting-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 summary {
     padding: 0 0 1pc 1pc;
 }
@@ -78,7 +89,8 @@ video {
 }
 
 audio {
-    width: 50vw;
+    width: 30vw;
+    align-self: center;
 }
 
 figcaption + img {
