@@ -7,6 +7,22 @@ header {
     margin: auto;
 }
 
+@font-face {
+    font-family: OpenSansBold;
+    src: url(fonts/OpenSans-Bold.ttf);
+}
+
+h2 ~ h3 {
+    color: #16123F;
+    font-family: OpenSansBold;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: OpenSansBold;
+    font-weight: bold;
+}
+
 h1 {
     font-size: 60px;
     font-family: fantasy;
@@ -20,12 +36,12 @@ hr {
 }
 
 #background {
-    background-color: #bbeca6;
+    background-color: hsl(102, 65%, 79%);
     padding: 0 30px 0 30px;
 }
 
 body {
-    background-color: rgb(228, 218, 187);
+    background-color: rgb(245, 236, 211);
     margin: 0 15vw 0 15vw;
     width: 70vw;
     color: black;
