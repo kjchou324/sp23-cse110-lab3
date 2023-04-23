@@ -49,9 +49,22 @@ hr {
 
 body {
     background-color: rgb(245, 236, 211);
-    margin: 0 15vw 0 15vw;
-    width: 70vw;
     color: black;
+}
+
+@media (max-width: 800px) {
+    body {
+        width: 100vw;
+        margin: 0;
+    }
+}
+
+@media (min-width: 801px) {
+    body {
+        background-color: rgb(245, 236, 211);
+        margin: 0 15vw 0 15vw;
+        width: 70vw;
+    }
 }
 
 li {
@@ -112,7 +125,8 @@ video {
 }
 
 audio {
-    width: 30vw;
+    width: 50vw;
+    max-width: 700px;
     align-self: center;
 }
 
