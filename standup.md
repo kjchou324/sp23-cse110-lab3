@@ -8,3 +8,6 @@
 
 ### What issues are blocking me?
 ...
+
+### Other general notes.
+...
