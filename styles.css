@@ -1,0 +1,25 @@
+/* Header elements: title, meeting title, date */
+header {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    color: #16123F;
+    text-transform: uppercase;
+}
+
+hr {
+    border: 1px solid #16123F;
+}
+
+body {
+    background-color: #abd699;
+    margin-left: 15%;
+    margin-right: 15%;
+}
