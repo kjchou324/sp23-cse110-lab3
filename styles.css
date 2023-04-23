@@ -21,7 +21,7 @@ hr {
 
 body {
     background-color: #abd699;
-    margin: 0 15% 0 15%;
+    margin: 0 15vw 0 15vw;
 }
 
 li {
@@ -37,7 +37,9 @@ figure {
     border-color: black;
     border-width: 2pt;
     border-radius: 10px;
-    padding: 1pc;
+    padding: 1pc 3pc 1pc 3pc;
+    display: inline-block;
+    text-align: center;
 }
 
 figcaption {
@@ -58,4 +60,8 @@ a:active {
     color: white;
     background-color: darkblue;
     opacity: 40%;
+}
+
+.text-entry {
+    display: inline;
 }
