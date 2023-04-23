@@ -65,3 +65,22 @@ a:active {
 .text-entry {
     display: inline;
 }
+
+video {
+    height: 40vh;
+}
+
+audio {
+    width: 50vw;
+}
+
+img {
+    max-width: 800px;
+    min-width: 512px;
+    width: 30vw;
+}
+
+textarea {
+    width: 30vw;
+    height: 80px;
+}
