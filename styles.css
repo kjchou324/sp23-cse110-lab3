@@ -1,9 +1,10 @@
 /* Header elements: title, meeting title, date */
 header {
     text-align: center;
+    font-family: sans-serif;
     padding-top: 20px;
     padding-bottom: 10px;
-    font-family: sans-serif;
+    margin: auto;
 }
 
 h1 {
@@ -20,6 +21,25 @@ hr {
 
 body {
     background-color: #abd699;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin: 0 15% 0 15%;
+}
+
+li {
+    padding-bottom: 5pt;
+}
+
+summary {
+    padding: 0 0 1pc 1pc;
+}
+
+figure {
+    border-style: solid;
+    border-color: black;
+    border-width: 2pt;
+    border-radius: 10px;
+    padding: 1pc;
+}
+
+figcaption {
+    margin-bottom: 1pc;
 }
